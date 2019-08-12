@@ -12,6 +12,3 @@ An Android Application for anlyzing your overall coding performance on various c
 * Data Processing : Android-JAVA
 * Database : Firebase
 
-## Screenshots
-![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/login.png = 100*100)
-![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/ProfileEdit.png)
