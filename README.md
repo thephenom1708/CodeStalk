@@ -1,5 +1,6 @@
 # CodeStalk
 An Android Application for anlyzing your overall coding performance on various coding platforms like Hackerrank, Hackerearth, Codechef, etc. Also an interface to provide self coding assistant facility.
 
-Java is used for development.
-Firebase is used for database-management.
+* CodeStalk,helps user to keep track and analyse his/her progress in coding and sport programming in various domains. CodeStalk will provide various pie-charts, line graphs, bar graphs to analyse this progress. It will also provide you weekly and monthly progress update.
+* In addition to this, Codestalk provides the feature of complete real-time list of worldwide upcoming coding contests on various platforms. 
+* Codestalk also provides a technical forum known as Tech-Forum, where all the users can discuss various technical topics related to latest technologies in Computer Science and IT. 
