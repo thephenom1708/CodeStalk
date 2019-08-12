@@ -13,5 +13,5 @@ An Android Application for anlyzing your overall coding performance on various c
 * Database : Firebase
 
 ## Screenshots
-![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/login.png)
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/login.png | width=50)
 ![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/ProfileEdit.png)
