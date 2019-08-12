@@ -12,3 +12,13 @@ An Android Application for anlyzing your overall coding performance on various c
 * Data Processing : Android-JAVA
 * Database : Firebase
 
+## Screenshots
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/loginAc.png)
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/profileAc.png)
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/homepageAc.png)
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/searchAc.png)
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/followAc.png)
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/contestAc.png)
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/analysis1.png)
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/analysis2.png)
+![](https://github.com/thephenom1708/CodeStalk/blob/master/Screenshots/techforumAc.png)
