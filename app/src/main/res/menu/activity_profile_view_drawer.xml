@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_myProfile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_performance"
+            android:icon="@drawable/ic_menu_leaderboard"
+            android:title="Performance Analyzer" />
+        <item
+            android:id="@+id/nav_codeAssistant"
+            android:icon="@drawable/ic_menu_codeassistant"
+            android:title="Code-Assistant" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_search"
+            android:title="Search Users" />
+        <item
+            android:id="@+id/nav_follow"
+            android:icon="@drawable/ic_menu_follow"
+            android:title="Followers/Following" />
+        <item
+            android:id="@+id/nav_contest"
+            android:icon="@drawable/ic_menu_contest"
+            android:title="Upcoming Contests" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_menu_forum"
+            android:title="Tech Forum" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@drawable/ic_menu_developers"
+                android:title="Developers" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_contact"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>

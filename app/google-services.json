@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "541980248454",
+    "firebase_url": "https://codestalk-317.firebaseio.com",
+    "project_id": "codestalk-317",
+    "storage_bucket": "codestalk-317.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541980248454:android:d70c91c767d39549",
+        "android_client_info": {
+          "package_name": "com.example.kaivalyamendki.sycodestalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541980248454-57oev8e1c304m33o72ifl19vhmo280t6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kaivalyamendki.sycodestalk",
+            "certificate_hash": "16f5a038f5683d5268b907ce8b97c227d8b97781"
+          }
+        },
+        {
+          "client_id": "541980248454-rauv1tl7kb2418hbmvdl0mfc7gs4b5c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADUZd0TPLDKS6z_952o7Gi_0afC2kkzgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541980248454-rauv1tl7kb2418hbmvdl0mfc7gs4b5c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

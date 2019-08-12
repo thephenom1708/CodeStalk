@@ -1,0 +1,423 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kaivalyamendki.sycodestalk.profile_show"
+    android:id="@+id/fragment_leaderboard">
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<!--<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="50dp">-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundcolor"
+    tools:context="com.example.kaivalyamendki.sycodestalk.Leaderboard">
+    <!-- TODO: Update blank fragment layout -->
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingTop="30dp"
+                    android:layout_width="30dp"
+                    android:layout_height="80dp"
+                    android:text="1"
+                    android:textSize="20dp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mohit Gholake"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="WCE Sangli"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_green_light">
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:text="1"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mohit Gholake"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="WCE Sangli"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:text="1"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mohit Gholake"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="WCE Sangli"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_green_light">
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:text="1"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mohit Gholake"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="WCE Sangli"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:text="1"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mohit Gholake"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="WCE Sangli"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_green_light">
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:text="1"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mohit Gholake"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="WCE Sangli"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:text="1"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mohit Gholake"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="WCE Sangli"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_green_light">
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:text="1"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mohit Gholake"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="WCE Sangli"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</ScrollView>
+</FrameLayout>
